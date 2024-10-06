@@ -1,6 +1,6 @@
 //Escreva uma função recursiva que calcule a potência de um número, dado a base e o expoente.
 import java.util.Scanner;
-public class L02EX02 {
+public class LPL02EX02 {
     public static int calculoPotencia(int base, int expoente) {
         if (base == 0) {
             return 0;}
