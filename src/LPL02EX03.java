@@ -1,6 +1,6 @@
 //Implemente uma função recursiva que inverta uma string.
 import java.util.Scanner;
-public class L02EX03 {
+public class LPL02EX03 {
     public static String inverterString(String palavra){
         if (palavra.length() <= 1) {
             return palavra;
@@ -11,6 +11,7 @@ public class L02EX03 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite uma palavra para ser invertida: ");
         String palavra = scanner.nextLine();
+        
         String inversao = inverterString(palavra);
         System.out.println("A palavra: "+palavra+ ", invertida é: "+inversao);
     }
