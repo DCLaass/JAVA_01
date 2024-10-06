@@ -1,6 +1,6 @@
 //Escreva uma função recursiva que conte o número de elementos pares em um array.
 import java.util.Scanner;
-public class L02EX08 {
+public class LPL02EX08 {
     public static int contarPares(int[] vetor, int tamanho){
         if(tamanho<0){
             return 0;
@@ -14,9 +14,9 @@ public class L02EX08 {
         int tamanho = scanner.nextInt();
         int[] vetor = new int[tamanho];
         System.out.println("Digite os elementos do seu Array:");
-        for (int i = 0; i < tamanho; i++) {
-            vetor[i] = scanner.nextInt();
-        }
+            for (int i = 0; i < tamanho; i++) {
+                vetor[i] = scanner.nextInt();
+            }
         int resultado = contarPares(vetor, tamanho);
         System.out.println("O número de elementos pares no seu Array é: "+ resultado);
     }
