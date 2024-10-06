@@ -1,9 +1,9 @@
 //Crie uma matriz bidimensional quadrada para armazenar 9 valores inteiros informados pelo usuário. Depois, calcule e mostre na tela o determinante da matriz.
-package LPL01E06;
+package LPL01EX06;
 
 import java.util.Scanner;
 
-public class LPL01E06 {
+public class LPL01EX06 {
     public static void main(String[] args) {
         int[][] MAT01 = new int[3][3];
         Scanner scanner = new Scanner(System.in);
@@ -21,10 +21,9 @@ public class LPL01E06 {
             }
         }
 
-        int determinanteMatriz = MAT01[0][0] * (MAT01[1][1] * MAT01[2][2] - MAT01[1][2] * MAT01[2][1])- MAT01[0][1] * (MAT01[1][0] * MAT01[2][2] - MAT01[1][2] * MAT01[2][0])+ MAT01[0][2] * (MAT01[1][0] * MAT01[2][1] - MAT01[1][1] * MAT01[2][0]);
+        int determinanteMatriz = MAT01[0][0] * (MAT01[1][1] * MAT01[2][2] - MAT01[1][2] * MAT01[2][1]) - MAT01[0][1] * (MAT01[1][0] * MAT01[2][2] - MAT01[1][2] * MAT01[2][0]) + MAT01[0][2] * (MAT01[1][0] * MAT01[2][1] - MAT01[1][1] * MAT01[2][0]);
 
         System.out.println("");
         System.out.println("O determinante da matriz é: " + determinanteMatriz);
     }
-
 }
