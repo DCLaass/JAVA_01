@@ -1,6 +1,6 @@
 //Escreva uma função recursiva que retorne a soma dos dígitos de um número inteiro.
 import java.util.Scanner;
-public class L02EX01 {
+public class LPL02EX01 {
     public static int somaDigitos(int numero){
         if (numero == 0){
             return 0;
