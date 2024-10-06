@@ -1,8 +1,9 @@
-//Faça um programa que leia um valor e apresente o número de Fibonacci correspondente a este valor lido. Lembre-se que os 2 primeiros elementos da série de Fibonacci são 0 e 1 e cada próximo termo é a soma dos 2 anteriores a ele. Todos os valores de Fibonacci calculados neste problema devem caber em um inteiro de 64 bits sem sinal.
-package LPL01E05;
+//Faça um programa que leia um valor e apresente o número de Fibonacci correspondente a este valor lido. 
+//Lembre-se que os 2 primeiros elementos da série de Fibonacci são 0 e 1 e cada próximo termo é a soma dos 2 anteriores a ele. 
+package LPL01EX05;
 
 import java.util.Scanner;
-public class LPL01E05 {
+public class LPL01EX05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] VET01 = new int[10];
@@ -21,7 +22,6 @@ public class LPL01E05 {
             if (i < VET01.length - 1) {
                 System.out.print(" ");
             }
-
         }
     }
 }
