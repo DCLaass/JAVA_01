@@ -1,6 +1,6 @@
 //Escreva uma função recursiva que converta um número decimal para binário.
 import java.util.Scanner;
-public class L02EX10 {
+public class LPL02EX10 {
     public static String binario(int numero) {
         if (numero == 0) {
             return "0";
