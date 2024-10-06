@@ -1,6 +1,6 @@
 //Escreva um programa que leia 10 valores inteiros, informados pelo usuário e armazene-os em um vetor. Após isso, lendo o vetor uma única vez e sem criar outros vetores, mostre na tela a média dos valores armazenados no vetor ponderados pelos índices nos quais estão armazenados.
 import java.util.Scanner;
-public class EX2 {
+public class LPL01EX02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] VET01 = new int[10];
