@@ -1,7 +1,7 @@
 //Leia um valor X. Coloque este valor na primeira posição de um vetor N de 100 posições. Em cada posição subsequente de N (1 até 99), coloque a metade do valor armazenado na posição anterior, conforme o exemplo abaixo. Imprima o vetor N.
 import java.util.Scanner;
 
-public class LPL01E04 {
+public class LPL01EX04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] VET01 = new int[100];
